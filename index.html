@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>岑芷玮 | 视觉设计师</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 鼠标跟随光晕 -->
+    <div class="cursor-glow"></div>
+
+    <!-- 动态背景 -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">岑芷玮</div>
+            <ul class="nav-links">
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#experience">经历</a></li>
+                <li><a href="#works">作品集</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+            <a href="assets/resume/resume.jpg" download="岑芷玮-个人简历.jpg" class="nav-btn download-btn">
+                <i class="fas fa-download"></i> 下载简历
+            </a>
+        </div>
+    </nav>
+
+    <!-- 主视觉区域 Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-tag">Visual Designer</span>
+                <h1 class="hero-title">
+                    <span class="title-line">你好，我是</span>
+                    <span class="title-name">岑芷玮</span>
+                </h1>
+                <p class="hero-intro">
+                    专注小程序活动视觉、H5创意与品牌IP设计。<br>
+                    从创意构思到落地执行，独立完成每一个项目。<br>
+                    服务广州天河城、花城汇、风行牛奶、友邦保险等多个行业客户。
+                </p>
+                <div class="hero-actions">
+                    <a href="#works" class="btn btn-primary">
+                        <span>查看作品</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>联系我</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-placeholder">
+                        <img src="个人照片.jpg" alt="岑芷玮">
+                    </div>
+                </div>
+                <div class="floating-tags">
+                    <span class="float-tag tag-1">小程序活动设计</span>
+                    <span class="float-tag tag-2">H5视觉设计</span>
+                    <span class="float-tag tag-3">UI设计</span>
+                    <span class="float-tag tag-4">品牌IP设计</span>
+                    <span class="float-tag tag-5">视觉设计</span>
+                    <span class="float-tag tag-6">AI创作</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>向下滚动</span>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">关于我</h2>
+            </div>
+            <div class="about-content">
+                <!-- 教育经历 -->
+                <div class="about-card about-education">
+                    <div class="about-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>教育经历</h3>
+                    <div class="edu-list">
+                        <div class="edu-item">
+                            <span class="edu-school">广州美术学院 · 视觉传达设计</span>
+                            <span class="edu-degree">本科（在读）</span>
+                            <span class="edu-time">2026.03 — 2028.03</span>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-school">电子科技大学中山学院 · 艺术设计</span>
+                            <span class="edu-degree">专科（在读）</span>
+                            <span class="edu-time">2025.03 — 2027.06</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能标签云 -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Skills</span>
+                <h2 class="section-title">专业技能</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-paint-brush"></i>
+                        设计工具
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="expert">Photoshop</span>
+                        <span class="skill-tag" data-level="expert">Illustrator</span>
+                        <span class="skill-tag" data-level="advanced">Figma</span>
+                        <span class="skill-tag" data-level="intermediate">Premiere Pro</span>
+                        <span class="skill-tag" data-level="advanced">After Effects</span>
+                        <span class="skill-tag" data-level="intermediate">Lightroom</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-robot"></i>
+                        AI工具
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="intermediate">ChatGPT</span>
+                        <span class="skill-tag" data-level="advanced">Midjourney</span>
+                        <span class="skill-tag" data-level="intermediate">Claude</span>
+                        <span class="skill-tag" data-level="advanced">Stable Diffusion</span>
+                        <span class="skill-tag" data-level="intermediate">Lovart</span>
+                        <span class="skill-tag" data-level="intermediate">即梦</span>
+                        <span class="skill-tag" data-level="intermediate">Nanobanana</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-cube"></i>
+                        3D & 其他
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag" data-level="intermediate">C4D</span>
+                        <span class="skill-tag" data-level="intermediate">Blender</span>
+                        <span class="skill-tag" data-level="advanced">Procreate</span>
+                        <span class="skill-tag" data-level="advanced">剪映</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 工作与项目经历 -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Experience</span>
+                <h2 class="section-title">工作与项目经历</h2>
+            </div>
+            <div class="experience-list">
+                <h3 class="experience-group-heading">
+                    <i class="fas fa-briefcase"></i>
+                    工作经历
+                </h3>
+                <div class="experience-item">
+                    <div class="experience-time">2026.06-2026.10</div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">广州市简美网络科技有限公司 <span class="experience-type">UI设计实习</span></h3>
+                        <ul class="experience-details">
+                            <li>在职期间独立负责多品牌、多场景的视觉设计全案，涵盖商业小程序UI设计、互动活动视觉、新媒体图文H5、线下物料落地等工作</li>
+                            <li>服务商业综合体、乳业、保险、文旅、集团企业等多个行业客户，熟练适配线上互动营销、品牌日常宣传、线下物料输出等全维度视觉需求</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 class="experience-group-heading">
+                    <i class="fas fa-folder-open"></i>
+                    项目经历
+                </h3>
+                <div class="experience-item">
+                    <div class="experience-time">小程序活动</div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">天河城、花城汇 <span class="experience-type">小程序营销活动设计</span></h3>
+                        <ul class="experience-details">
+                            <li>独立负责广州天河城、花城汇两大核心商圈微信小程序的营销视觉设计工作</li>
+                            <li>根据商场季度运营活动规划，针对性完成开宝箱趣味互动活动、社群专属拉新裂变活动的全套视觉设计，包含活动首页、弹窗页面、奖励展示页、规则详情页、社群引流海报、活动氛围图等全链路画面</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-time">品牌运营</div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">风行牛奶 <span class="experience-type">品牌视觉运营设计</span></h3>
+                        <ul class="experience-details">
+                            <li>新媒体端：每月独立制作公众号会员日专题长图、品牌运营H5页面，根据月度活动主题、会员福利机制定制专属视觉风格</li>
+                            <li>小程序UI端：负责官方小程序整体视觉优化与页面迭代，独立完成养牛养成小游戏、线上抽奖、接金币互动玩法等多款轻量化运营小游戏页面设计，优化游戏视觉体验与用户操作观感</li>
+                            <li>物料统筹：同步承接品牌日常运营配图、活动BANNER、宣传素材，统一品牌线上视觉体系，支撑长期稳定的线上运营节奏</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-time">新媒体设计</div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">友邦保险 <span class="experience-type">主题活动推文设计</span></h3>
+                        <ul class="experience-details">
+                            <li>承接友邦保险各类品牌活动、公益活动、城市活动的新媒体设计工作，独立完成公众号精美推文排版、专题宣传H5全页设计</li>
+                            <li>先后落地强悍泥人公益挑战赛、城市咖啡节、书法大赛等多个差异化主题项目，根据公益、潮流、文化国风等不同活动调性，精准切换视觉风格，兼顾金融品牌的专业质感与年轻化活动的潮流氛围，为品牌线下活动引流、线上曝光传播提供完整视觉支撑</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-time">UI设计</div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">广州国际灯光节 <span class="experience-type">小程序全套UI视觉设计</span></h3>
+                        <ul class="experience-details">
+                            <li>独立完成大型城市文旅项目小程序全套UI视觉设计，涵盖首页大屏、活动专题页、展品介绍页、打卡互动页、弹窗提示、导航模块、活动细则页面等全部界面</li>
+                            <li>适配大型城市盛会的高级、简约、氛围感视觉定位，符合官方文旅项目视觉标准</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-time">文旅视觉</div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">长鹿农庄 <span class="experience-type">文旅宣传视觉设计</span></h3>
+                        <ul class="experience-details">
+                            <li>负责长鹿旅游休博园的宣传视觉输出，根据景区节假日活动、日常推广需求，独立设计主题宣传海报、活动引流海报、节日氛围海报</li>
+                            <li>同时完成公众号推文版式设计、配图优化</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品集展示 -->
+    <section class="works" id="works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">作品集</h2>
+            </div>
+
+            <!-- 作品筛选 -->
+            <div class="works-filter">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="h5">H5设计</button>
+                <button class="filter-btn" data-filter="miniapp">小程序活动</button>
+                <button class="filter-btn" data-filter="ui">UI设计</button>
+                <button class="filter-btn" data-filter="ip">IP设计</button>
+            </div>
+
+            <!-- 作品网格 - 自适应布局 -->
+            <div class="works-grid">
+                <!-- 作品卡片 1 - 竖图 -->
+                <article class="work-card work-card-vertical" data-category="miniapp"
+                         data-title="天河城·九月美妆节活动"
+                         data-images="assets/works/miniapp/tianhe-beauty/1.jpg|assets/works/miniapp/tianhe-beauty/2.jpg|assets/works/miniapp/tianhe-beauty/3.jpg|assets/works/miniapp/tianhe-beauty/4.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/miniapp/tianhe-beauty/cover.jpg" alt="天河城·九月美妆节活动" loading="lazy">
+                        <span class="work-count">4 张图</span>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">小程序活动设计 · 互动营销</span>
+                        <h3 class="work-title">天河城·九月美妆节</h3>
+                        <p class="work-desc">主视觉、会场地图、积分福利与楼层指引全套活动物料</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 2 - 竖图 -->
+                <article class="work-card work-card-vertical" data-category="miniapp"
+                         data-title="天河城·吃货社群拉新活动"
+                         data-images="assets/works/miniapp/tianhe-food/1.jpg|assets/works/miniapp/tianhe-food/2.jpg|assets/works/miniapp/tianhe-food/3.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/miniapp/tianhe-food/cover.jpg" alt="天河城·吃货社群拉新活动" loading="lazy">
+                        <span class="work-count">3 张图</span>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">小程序活动设计 · 社群运营</span>
+                        <h3 class="work-title">天河城·吃货社群拉新</h3>
+                        <p class="work-desc">积分夺宝互动与社群裂变海报，打造全链路拉新视觉</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 3 - 横图 -->
+                <article class="work-card work-card-horizontal" data-category="miniapp"
+                         data-title="越秀地产·甜果生活节"
+                         data-images="assets/works/miniapp/yuexiu-fruit/1.jpg|assets/works/miniapp/yuexiu-fruit/2.jpg|assets/works/miniapp/yuexiu-fruit/3.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/miniapp/yuexiu-fruit/cover.jpg" alt="越秀地产·甜果生活节" loading="lazy">
+                        <span class="work-count">3 张图</span>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">小程序活动设计 · 活动视觉</span>
+                        <h3 class="work-title">越秀地产·甜果生活节</h3>
+                        <p class="work-desc">手绘水果插画构建秋日丰收氛围，统一节日视觉</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 4 - 横图 -->
+                <article class="work-card work-card-horizontal" data-category="miniapp"
+                         data-title="风行牛奶·养牛小游戏"
+                         data-images="assets/works/miniapp/fengxing-game/1.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/miniapp/fengxing-game/cover.jpg" alt="风行牛奶·养牛小游戏" loading="lazy">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">小程序活动设计 · 游戏化设计</span>
+                        <h3 class="work-title">风行牛奶·养牛小游戏</h3>
+                        <p class="work-desc">养牛养成类小游戏页面设计，优化游戏体验与操作观感</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 5 - 横图 -->
+                <article class="work-card work-card-horizontal" data-category="ui"
+                         data-title="星光映景·写字楼小程序"
+                         data-images="assets/works/ui/xingguang/1.jpg|assets/works/ui/xingguang/2.jpg|assets/works/ui/xingguang/3.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/ui/xingguang/cover.jpg" alt="星光映景·写字楼小程序" loading="lazy">
+                        <span class="work-count">3 张图</span>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">UI设计 · 移动端</span>
+                        <h3 class="work-title">星光映景·写字楼小程序</h3>
+                        <p class="work-desc">写字楼租赁小程序全套界面，覆盖列表、详情与导航模块</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 6 - 竖图 -->
+                <article class="work-card work-card-vertical" data-category="miniapp"
+                         data-title="花城汇·周年庆开宝箱活动"
+                         data-images="assets/works/miniapp/huachenghui-box/1.jpg|assets/works/miniapp/huachenghui-box/2.jpg|assets/works/miniapp/huachenghui-box/3.jpg|assets/works/miniapp/huachenghui-box/4.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/miniapp/huachenghui-box/cover.jpg" alt="花城汇·周年庆开宝箱活动" loading="lazy">
+                        <span class="work-count">4 张图</span>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">小程序活动设计 · 互动玩法</span>
+                        <h3 class="work-title">花城汇·周年庆开宝箱</h3>
+                        <p class="work-desc">15周年庆开宝箱活动全链路视觉与抽奖氛围设计</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 7 - 竖图 -->
+                <article class="work-card work-card-vertical" data-category="h5"
+                         data-title="友邦保险·友约上场，粤享健康"
+                         data-images="assets/works/h5/aia-health/1.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/h5/aia-health/cover.jpg" alt="友邦保险·友约上场，粤享健康" loading="lazy">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">H5设计 · 活动宣传</span>
+                        <h3 class="work-title">友邦保险·友约上场，粤享健康</h3>
+                        <p class="work-desc">运动健康主题活动 H5，清爽活力的运动视觉</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 8 - 竖图 -->
+                <article class="work-card work-card-vertical" data-category="h5"
+                         data-title="友邦保险·咖啡公益行动"
+                         data-images="assets/works/h5/aia-coffee/1.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/h5/aia-coffee/cover.jpg" alt="友邦保险·咖啡公益行动" loading="lazy">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">H5设计 · 公益传播</span>
+                        <h3 class="work-title">友邦保险·咖啡公益行动</h3>
+                        <p class="work-desc">咖啡公益主题活动 H5，温暖治愈的视觉表达</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 9 - 竖图 -->
+                <article class="work-card work-card-vertical" data-category="h5"
+                         data-title="友邦保险·强悍泥人挑战赛"
+                         data-images="assets/works/h5/aia-mudman/1.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/h5/aia-mudman/cover.jpg" alt="友邦保险·强悍泥人挑战赛" loading="lazy">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">H5设计 · 活动宣传</span>
+                        <h3 class="work-title">友邦保险·强悍泥人挑战赛</h3>
+                        <p class="work-desc">强悍泥人公益挑战赛 H5，潮流热血的赛事氛围</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 10 - 竖图 -->
+                <article class="work-card work-card-vertical" data-category="h5"
+                         data-title="广州花城汇·15周年庆"
+                         data-images="assets/works/h5/huachenghui-15/1.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/h5/huachenghui-15/cover.jpg" alt="广州花城汇·15周年庆" loading="lazy">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">H5设计 · 节庆活动</span>
+                        <h3 class="work-title">广州花城汇·15周年庆</h3>
+                        <p class="work-desc">粉彩萌趣的周年庆活动 H5，传递节庆喜悦</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 11 - 竖图 -->
+                <article class="work-card work-card-vertical" data-category="h5"
+                         data-title="风行牛奶·周年庆"
+                         data-images="assets/works/h5/fengxing-anniversary/1.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/h5/fengxing-anniversary/cover.jpg" alt="风行牛奶·周年庆" loading="lazy">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">H5设计 · 品牌活动</span>
+                        <h3 class="work-title">风行牛奶·周年庆</h3>
+                        <p class="work-desc">品牌周年庆活动 H5，轻快活泼的福利页设计</p>
+                    </div>
+                </article>
+
+                <!-- 作品卡片 12 - 竖图 -->
+                <article class="work-card work-card-vertical" data-category="ip"
+                         data-title="竹韵钟灵·钟落潭文旅IP"
+                         data-images="assets/works/ip/zhuyun/1.jpg">
+                    <div class="work-image">
+                        <img src="assets/works/ip/zhuyun/cover.jpg" alt="竹韵钟灵·钟落潭文旅IP" loading="lazy">
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">IP设计 · 品牌视觉</span>
+                        <h3 class="work-title">竹韵钟灵·钟落潭文旅IP</h3>
+                        <p class="work-desc">原创IP形象与视觉延展，演绎竹、钟、龙地域文化</p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- 下载完整作品集 -->
+            <div class="portfolio-download">
+                <a href="作品集.pdf" download="岑芷玮-作品集.pdf" class="btn btn-primary btn-large">
+                    <i class="fas fa-file-pdf"></i>
+                    <span>下载完整作品集 PDF</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">联系方式</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>邮箱</h4>
+                            <a href="mailto:nickeysum@163.com">nickeysum@163.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>电话</h4>
+                            <a href="tel:+8613533586268">135-3358-6268</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-weixin"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>微信</h4>
+                            <span>Nickey0027</span>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-detail">
+                            <h4>所在地</h4>
+                            <span>中国 · 广州</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>期待与您合作</h3>
+                    <p>如果您对我的作品感兴趣，欢迎随时联系我</p>
+                    <a href="mailto:nickeysum@163.com" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>发送邮件</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">岑芷玮</div>
+                <p class="footer-text">用创意连接可能，用设计改变世界</p>
+                <p class="copyright">&copy; 2026 岑芷玮. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 作品图片画廊 -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="作品图片查看">
+        <button class="lightbox-close" aria-label="关闭">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-nav lightbox-prev" aria-label="上一张">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-stage">
+            <img alt="">
+        </div>
+        <button class="lightbox-nav lightbox-next" aria-label="下一张">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="lightbox-footer">
+            <span class="lightbox-title"></span>
+            <span class="lightbox-counter"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
